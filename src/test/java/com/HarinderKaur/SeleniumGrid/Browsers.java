@@ -1,8 +1,8 @@
 package com.HarinderKaur.SeleniumGrid;
 
 public enum Browsers {
-	GOOGLE_CHROME("chrome"),
-	EDGE("microsoft edge"),
+	CHROME("chrome"),
+	EDGE("edge"),
 	FIREFOX("firefox");
 	
 	String browserName;

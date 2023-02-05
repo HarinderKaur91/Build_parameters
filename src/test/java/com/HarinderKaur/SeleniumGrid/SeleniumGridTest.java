@@ -50,10 +50,10 @@ public class SeleniumGridTest {
 		if (browserName != null) {
 			browser = Browsers.valueOf(browserName.toUpperCase());
 		} else {
-			browser = Browsers.GOOGLE_CHROME;
+			browser = Browsers.CHROME;
 		}
 		switch (browser) {
-		case GOOGLE_CHROME:
+		case CHROME:
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.setExperimentalOption("prefs", preferences);
